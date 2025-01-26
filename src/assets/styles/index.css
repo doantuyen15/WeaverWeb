@@ -3,3 +3,49 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.bg-1 {
+    background-image: url('../img/BG-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-position: 50% 0%;
+    background-repeat: repeat;
+    background-origin: content-box;
+}
+
+.bg-2 {
+    position: absolute;
+    left: 52px;
+    z-index: 0;
+    background-color: rgb(255, 241, 221);
+    height: 500px;
+    width: 500px;
+    border-radius: 250px;
+}
+
+.bg-3 {
+    background-image: url('../img/BG-3.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.bg-4 {
+    background-image: url('../img/BG-4.jpg');
+    background-origin: content-box;
+    background-position: 20% 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+.banner-1 {
+    height: 100px;
+    position: relative;
+    /* top: 345px; */
+    z-index: 1;
+    border-width: 1px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(188, 98, 98);
+    background-color: rgb(255, 245, 242);
+}
