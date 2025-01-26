@@ -35,9 +35,9 @@ export default function Index() {
         </div>
       </section>
 
-      <section className="bg-3 overflow-hidden min-h-max sm:h-[1168.6px] pb-4">
-        <div class="text-center pt-10 sm:pt-20">
-          <h1 class="font-extrabold text-4xl mb-2 text-white">LỘ TRÌNH BAO GỒM 1 KHÓA HỌC</h1>
+      <section className="bg-3 overflow-hidden min-h-max sm:h-[1168.6px] pb-4 flex justify-center flex-col">
+        <div class="text-center py-10">
+          <h1 class="font-extrabold text-4xl text-white">LỘ TRÌNH BAO GỒM 1 KHÓA HỌC</h1>
           <h1 class="text-3xl text-white">CHINH PHỤC TIẾNG ANH DÀNH CHO NGƯỜI MỚI BẮT ĐẦU</h1>
         </div>
         <div id="Projects"

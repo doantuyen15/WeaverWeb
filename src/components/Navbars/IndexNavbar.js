@@ -34,25 +34,25 @@ export default function Navbar(props) {
             id="example-navbar-warning"
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-              <li className="flex items-center">
+              <li className="flex items-center flex-col md:flex-row" onClick={() => setNavbarOpen(!navbarOpen)}>
                 {/* <IndexDropdown /> */}
                 <a
-                  className="hover:text-blueGray-500 hover:cursor-pointer text-white px-3 py-4 lg:py-2 flex items-center text-base uppercase font-extrabold"
+                  className="md:hover:text-blueGray-500 hover:cursor-pointer text-orange-500 md:text-white px-3 py-4 lg:py-2 flex items-center text-base uppercase font-extrabold"
                 >
                   Lộ trình
                 </a>
                 <a
-                  className="hover:text-blueGray-500 hover:cursor-pointer text-white px-3 py-4 lg:py-2 flex items-center text-base uppercase font-extrabold"
+                  className="md:hover:text-blueGray-500 hover:cursor-pointer text-orange-500 md:text-white px-3 py-4 lg:py-2 flex items-center text-base uppercase font-extrabold"
                 >
                   Ưu đãi
                 </a>
                 <a
-                  className="hover:text-blueGray-500 hover:cursor-pointer text-white px-3 py-4 lg:py-2 flex items-center text-base uppercase font-extrabold"
+                  className="md:hover:text-blueGray-500 hover:cursor-pointer text-orange-500 md:text-white px-3 py-4 lg:py-2 flex items-center text-base uppercase font-extrabold"
                 >
                   Các khoá học
                 </a>
                 <a
-                  className="hover:text-blueGray-500 hover:cursor-pointer text-white px-3 py-4 lg:py-2 flex items-center text-base uppercase font-extrabold"
+                  className="md:hover:text-blueGray-500 hover:cursor-pointer text-orange-500 md:text-white px-3 py-4 lg:py-2 flex items-center text-base uppercase font-extrabold"
                 >
                   Giảng viên
                 </a>
